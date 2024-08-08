@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Proyectos";
+}
+ <section id="projects" class="container">
+    <h2 class="section-title text-center">Proyectos</h2>   
+    <div class="row">
+    @foreach (var proyecto in ViewBag.Proyectos)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@proyecto.ImagenUrl" class="card-img-top" alt="Proyecto @proyecto.Nombre">
+                <div class="card-body">
+                    <h5 class="card-title">@proyecto.Nombre</h5>
+                    <p class="card-text">@proyecto.Descripcion</p>
+                    <a href="@proyecto.Url" class="btn btn-primary">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+  </section>

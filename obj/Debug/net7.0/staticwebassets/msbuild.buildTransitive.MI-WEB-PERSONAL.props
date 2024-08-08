@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MI-WEB-PERSONAL.props" />
+</Project>

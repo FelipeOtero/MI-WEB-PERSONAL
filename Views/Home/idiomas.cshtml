@@ -1,0 +1,18 @@
+<section id="languages" class="container">
+    <h2 class="section-title text-center">Idiomas</h2>
+    <div class="row">
+        @foreach (var idioma in ViewBag.Idiomas)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="@idioma.Icono"></i>
+                        <h5 class="card-title">@idioma.Nombre</h5>
+                        <p class="card-text">@idioma.Nivel</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+

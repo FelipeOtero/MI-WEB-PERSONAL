@@ -1,0 +1,38 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+.navbar {
+  margin-bottom: 50px;
+}
+.profile-img {
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+.section-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+.btn-primary {
+  transition: background-color 0.3s, transform 0.3s;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
